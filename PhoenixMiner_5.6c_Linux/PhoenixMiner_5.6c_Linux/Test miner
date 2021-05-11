@@ -1,0 +1,4 @@
+./PhoenixMiner -rmode 0 -pool <stratum+tcp://ss.antpool.com:3333> -pool2 stratum+tcp://ss.antpool.com:443 -wal <0xB36E4974191B21ce5f291863cE73cc56602d30EA> -worker <Rig_test> -tt <80> -ttmem <80> -tmax <160> -tmaxmem <160> -fanstop <0> -fcm <2> -fanidle <-1> -fpwm <3> -proto <3> -cdm <0> -coin <eth> -amd -acm -mi<12> -bench -rmode <2> -timeout <5> -leaveoc -hwm <3> -hstats <2> -cclock <2000> -cvddc <0> -mclock <0> -tstop <160> -leavemt -
+	echo "Hit [CTRL+C] to stop the miner from restarting in 10 seconds"
+	sleep 10
+done
